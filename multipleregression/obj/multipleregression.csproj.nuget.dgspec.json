@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\source\\repos\\multipleregression\\multipleregression\\multipleregression.csproj": {}
+    "C:\\GIT_COPY\\Intelli System\\RJJ_multiple_regression\\multipleregression\\multipleregression.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\source\\repos\\multipleregression\\multipleregression\\multipleregression.csproj": {
+    "C:\\GIT_COPY\\Intelli System\\RJJ_multiple_regression\\multipleregression\\multipleregression.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\multipleregression\\multipleregression\\multipleregression.csproj",
+        "projectUniqueName": "C:\\GIT_COPY\\Intelli System\\RJJ_multiple_regression\\multipleregression\\multipleregression.csproj",
         "projectName": "multipleregression",
-        "projectPath": "C:\\Users\\Lenovo\\source\\repos\\multipleregression\\multipleregression\\multipleregression.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\source\\repos\\multipleregression\\multipleregression\\obj\\",
+        "projectPath": "C:\\GIT_COPY\\Intelli System\\RJJ_multiple_regression\\multipleregression\\multipleregression.csproj",
+        "packagesPath": "C:\\Users\\milkstard\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT_COPY\\Intelli System\\RJJ_multiple_regression\\multipleregression\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\milkstard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

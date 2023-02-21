@@ -29,50 +29,46 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.hoursTextBox = new System.Windows.Forms.TextBox();
-            this.courses = new System.Windows.Forms.TextBox();
-            this.output = new System.Windows.Forms.TextBox();
+            this.hoursText = new System.Windows.Forms.TextBox();
+            this.coursesText = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(207, 58);
+            this.button1.Location = new System.Drawing.Point(267, 160);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 40);
+            this.button1.Size = new System.Drawing.Size(97, 30);
             this.button1.TabIndex = 0;
             this.button1.Text = "Predict";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // hoursTextBox
+            // hoursText
             // 
-            this.hoursTextBox.Location = new System.Drawing.Point(78, 26);
-            this.hoursTextBox.Name = "hoursTextBox";
-            this.hoursTextBox.Size = new System.Drawing.Size(100, 23);
-            this.hoursTextBox.TabIndex = 1;
+            this.hoursText.Location = new System.Drawing.Point(143, 39);
+            this.hoursText.Name = "hoursText";
+            this.hoursText.Size = new System.Drawing.Size(100, 23);
+            this.hoursText.TabIndex = 1;
             // 
-            // courses
+            // coursesText
             // 
-            this.courses.Location = new System.Drawing.Point(78, 68);
-            this.courses.Name = "courses";
-            this.courses.Size = new System.Drawing.Size(100, 23);
-            this.courses.TabIndex = 2;
-            // 
-            // output
-            // 
-            this.output.Location = new System.Drawing.Point(78, 111);
-            this.output.Name = "output";
-            this.output.Size = new System.Drawing.Size(100, 23);
-            this.output.TabIndex = 3;
+            this.coursesText.Location = new System.Drawing.Point(143, 83);
+            this.coursesText.Name = "coursesText";
+            this.coursesText.Size = new System.Drawing.Size(100, 23);
+            this.coursesText.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 26);
+            this.label1.Location = new System.Drawing.Point(29, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 15);
             this.label1.TabIndex = 4;
@@ -82,7 +78,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 68);
+            this.label2.Location = new System.Drawing.Point(29, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 15);
             this.label2.TabIndex = 5;
@@ -92,23 +88,57 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 111);
+            this.label3.Location = new System.Drawing.Point(34, 160);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 15);
             this.label3.TabIndex = 6;
             this.label3.Text = "Mark";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(-1, 1);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(43, 23);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "FILE";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(49, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(0, 15);
+            this.label4.TabIndex = 8;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(143, 160);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(62, 15);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "-----------";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(375, 201);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.output);
-            this.Controls.Add(this.courses);
-            this.Controls.Add(this.hoursTextBox);
+            this.Controls.Add(this.coursesText);
+            this.Controls.Add(this.hoursText);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
@@ -122,11 +152,14 @@
         #endregion
 
         private Button button1;
-        private TextBox hoursTextBox;
-        private TextBox courses;
-        private TextBox output;
+        private TextBox hoursText;
+        private TextBox coursesText;
         private Label label1;
         private Label label2;
         private Label label3;
+        private Button button2;
+        private OpenFileDialog openFileDialog1;
+        private Label label4;
+        private Label label5;
     }
 }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "l4tt3VOKju7Ozhn7gNRxgxXbmSmg2psRIqEile+U0K4KrdV+vsHF1L8F4i6gbqgJmcgMvz/+zfjMfqv+g5Vf/w==",
+  "dgSpecHash": "QF8LFM4REkJwR5HhVUkoGFvHLpi40gEh0Zw5Qj9Ivqw99Fot4dPRMF/aPO7Xkdm2kRXR1PzVsSxKieaklfPdfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\multipleregression\\multipleregression\\multipleregression.csproj",
+  "projectFilePath": "C:\\GIT_COPY\\Intelli System\\RJJ_multiple_regression\\multipleregression\\multipleregression.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\accord.statistics\\3.8.0\\accord.statistics.3.8.0.nupkg.sha512"
+    "C:\\Users\\milkstard\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\milkstard\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\milkstard\\.nuget\\packages\\accord.statistics\\3.8.0\\accord.statistics.3.8.0.nupkg.sha512"
   ],
   "logs": []
 }
